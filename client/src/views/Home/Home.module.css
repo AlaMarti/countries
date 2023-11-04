@@ -1,0 +1,41 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  border: 1px black;
+  border-radius: 5px;
+}
+
+.filter {
+  margin: 0px 10px;
+}
+
+.filter > label {
+  font-size: 14px;
+  color: #555;
+  margin-right: 5px;
+}
+
+.resetButton {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #1e3a58;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.resetButton:hover {
+  background-color: #1a324c;
+}
+
+.withOutCountries{
+  font-size: 30px;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
